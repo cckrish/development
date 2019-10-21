@@ -11,9 +11,9 @@ pipeline {
         echo 'welcome to TEST stage'
       }
     }
-    stage('End') {
+    stage('Deploy') {
       steps {
-        echo 'close build'
+        echo 'Code Deploy'
       }
     }
   }
